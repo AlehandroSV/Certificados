@@ -18,7 +18,8 @@ Repositório de certificados organizados por **tecnologia**.
 | C# | 1 | Udemy (Cod3r) |
 | Java | 1 | ADA |
 | Node.js | 1 | DevSamurai |
-| **Total** | **129** | |
+| Inteligência Artificial | 1 | UNIASSELVI |
+| **Total** | **130** | |
 
 ## 📁 Estrutura
 
