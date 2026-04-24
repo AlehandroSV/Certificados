@@ -4,22 +4,23 @@ Repositório de certificados organizados por **tecnologia**.
 
 ## 📊 Resumo
 
-| Tecnologia | Certificados | Plataformas |
-|---|:---:|---|
-| JavaScript | 21 | DIO, DevSamurai |
-| Banco de Dados | 20 | DIO |
-| Fundamentos | 20 | DIO, DevSamurai, Bradesco, RocketSeat, Estudar Na Prática, Uniasselvi |
-| Linux & DevOps | 16 | DIO |
-| React | 14 | DIO, DevSamurai |
-| HTML & CSS | 11 | DIO, Bradesco |
-| Python | 7 | DIO, TreinaWeb |
-| TypeScript | 5 | DIO, DevSamurai |
-| Git & GitHub | 2 | DIO |
-| C# | 1 | Udemy (Cod3r) |
-| Java | 1 | ADA |
-| Node.js | 1 | DevSamurai |
-| Inteligência Artificial | 1 | UNIASSELVI |
-| **Total** | **130** | |
+| Tecnologia | Certificados | Horas | Plataformas |
+|---|:---:|:---:|---|
+| JavaScript | 21 | 54h | DIO, DevSamurai |
+| Banco de Dados | 20 | 100h | DIO |
+| Fundamentos | 20 | 211h | DIO, DevSamurai, Bradesco, RocketSeat, Estudar Na Prática, Uniasselvi |
+| Linux & DevOps | 16 | 63h | DIO |
+| React | 14 | 39h | DIO, DevSamurai |
+| HTML & CSS | 11 | 39h | DIO, Bradesco |
+| Python | 7 | 24h | DIO, TreinaWeb |
+| TypeScript | 5 | 5h | DIO, DevSamurai |
+| Git & GitHub | 2 | 6h | DIO |
+| C# | 1 | 16h | Udemy (Cod3r) |
+| Java | 1 | - | ADA |
+| Node.js | 1 | 3h | DevSamurai |
+| Inteligência Artificial | 1 | 30h | UNIASSELVI |
+| _Meta | 10 | 13h | DIO |
+| **Total** | **130** | **~603h** | |
 
 ## 📁 Estrutura
 

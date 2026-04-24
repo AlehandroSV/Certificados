@@ -1,0 +1,13 @@
+# Python dependencies
+scripts/python_libs/
+
+# Generated data
+certificados.json
+
+# Local scripts (optional, but keep extract_hours.py)
+# scripts/debug_pdf.py
+# scripts/stats.py
+
+# System files
+.DS_Store
+Thumbs.db
