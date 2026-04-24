@@ -2,8 +2,6 @@ import os
 import sys
 import re
 
-# Add local libs to path
-sys.path.append(os.path.abspath("./python_libs"))
 
 from pypdf import PdfReader
 

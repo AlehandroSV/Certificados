@@ -3,9 +3,6 @@ import sys
 import json
 import re
 
-# Add local libs to path
-script_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(script_dir, "python_libs"))
 
 try:
     from pypdf import PdfReader
