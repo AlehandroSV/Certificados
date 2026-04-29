@@ -19,11 +19,13 @@ Repositório de certificados organizados por **tecnologia**.
 | Java | 1 | 2h | ADA |
 | Node.js | 1 | 3h | DevSamurai |
 | Inteligência Artificial | 1 | 30h | UNIASSELVI |
+| Graduação (Faculdade) | 1 | 2067h | UNIASSELVI |
 | _Meta | 10 | 13h | DIO |
-| **Total** | **130** | **~615h** | |
+| **Total** | **131** | **~2654h** | |
 
 ## 📁 Estrutura
 
 Cada certificado segue o padrão: `[Plataforma] Nome do Certificado.pdf`
 
 - `_Meta/` — Certificados de onboarding e carreira (não-técnicos)
+- `Faculdade/` — Diploma e documentos de graduação acadêmica

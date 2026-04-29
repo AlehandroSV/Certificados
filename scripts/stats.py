@@ -24,6 +24,7 @@ mapping = {
     "Java": "Java",
     "Node.js": "Node.js",
     "Inteligencia-Artificial": "Inteligência Artificial",
+    "Faculdade": "Graduação (Faculdade)",
     "_Meta": "_Meta"
 }
 

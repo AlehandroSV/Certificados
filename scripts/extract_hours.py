@@ -56,10 +56,12 @@ def main():
     total_hours = 0
     
     # Categories to skip
-    skip_dirs = ["python_libs", ".git", "_Meta"] # Skipping _Meta as they are non-technical usually, but user might want them?
-    # User said "abrir os cursos", usually technical. But I'll include everything and let the user decide.
-    # Actually, I'll include _Meta too but skip the script folder.
-    skip_dirs = ["python_libs", ".git"]
+    skip_dirs = ["python_libs", ".git", "scripts"]
+    
+    # Manual overrides for files that don't have hours in text
+    MANUAL_HOURS = {
+        "[UNIASSELVI] Gestão da Tecnologia da Informação.pdf": 2067.0  # Default for IT Management Technologist
+    }
 
     for root, dirs, files in os.walk(base_dir):
         # Filter out skip_dirs
@@ -70,7 +72,11 @@ def main():
                 full_path = os.path.join(root, file)
                 category = os.path.basename(root)
                 
-                hours = extract_hours(full_path)
+                # Check manual override first
+                if file in MANUAL_HOURS:
+                    hours = MANUAL_HOURS[file]
+                else:
+                    hours = extract_hours(full_path)
                 
                 results.append({
                     "file": file,

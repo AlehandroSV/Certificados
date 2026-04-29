@@ -35,4 +35,5 @@ def debug_pdf(pdf_path):
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    debug_pdf("./JavaScript/[DIO] Dominando Funções em JavaScript.pdf")
+    path = sys.argv[1] if len(sys.argv) > 1 else "./JavaScript/[DIO] Dominando Funções em JavaScript.pdf"
+    debug_pdf(path)
